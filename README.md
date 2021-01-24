@@ -1,4 +1,4 @@
-**LastDo Remote**
+**LastDo Remote Library**
 
 LastDo is a life organizer app with extensive functionality. It has alarm, notifications, notes, timer, stopwatch and file sharing between devices. It has fine grained control over which functionalities 3rd parties can access.
 
