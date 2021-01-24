@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.lastdo.remote.example.MainFragment"
+        android:label="@string/intent_type"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/AddAlarmFragment"
+        android:name="com.lastdo.remote.example.events.add.AddAlarmFragment"
+        android:label="@string/add_alarm" />
+    <fragment
+        android:id="@+id/AddChallengeAlarmFragment"
+        android:name="com.lastdo.remote.example.events.add.AddChallengeAlarmFragment"
+        android:label="@string/add_challenge_alarm" />
+    <fragment
+        android:id="@+id/AddNotificationFragment"
+        android:name="com.lastdo.remote.example.events.add.AddNotificationFragment"
+        android:label="@string/add_notification" />
+    <fragment
+        android:id="@+id/AddPersistentNotificationFragment"
+        android:name="com.lastdo.remote.example.events.add.AddPersistentNotificationFragment"
+        android:label="@string/add_persistent_notification" />
+    <fragment
+        android:id="@+id/EnableEventsFragment"
+        android:name="com.lastdo.remote.example.events.modify.EnableEventsFragment"
+        android:label="@string/enable_events" />
+    <fragment
+        android:id="@+id/DismissEventsFragment"
+        android:name="com.lastdo.remote.example.events.modify.DismissEventsFragment"
+        android:label="@string/dismiss_events" />
+    <fragment
+        android:id="@+id/DisableEventsFragment"
+        android:name="com.lastdo.remote.example.events.modify.DisableEventsFragment"
+        android:label="@string/disable_events" />
+    <fragment
+        android:id="@+id/MoveEventsToTrashFragment"
+        android:name="com.lastdo.remote.example.events.modify.MoveEventsToTrashFragment"
+        android:label="@string/move_events_to_trash" />
+    <fragment
+        android:id="@+id/RestoreEventsFragment"
+        android:name="com.lastdo.remote.example.events.modify.RestoreEventsFragment"
+        android:label="@string/restore_events" />
+    <fragment
+        android:id="@+id/CreateNoteFragment"
+        android:name="com.lastdo.remote.example.notes.CreateNoteFragment"
+        android:label="@string/create_note" />
+    <fragment
+        android:id="@+id/MoveNotesToTrashFragment"
+        android:name="com.lastdo.remote.example.notes.MoveNotesToTrashFragment"
+        android:label="@string/move_notes_to_trash" />
+    <fragment
+        android:id="@+id/RestoreNotesFragment"
+        android:name="com.lastdo.remote.example.notes.RestoreNotesFragment"
+        android:label="@string/restore_notes" />
+    <fragment
+        android:id="@+id/CreateCardFragment"
+        android:name="com.lastdo.remote.example.notes.CreateCardFragment"
+        android:label="@string/create_card" />
+    <fragment
+        android:id="@+id/MoveCardsToTrashFragment"
+        android:name="com.lastdo.remote.example.notes.MoveCardsToTrashFragment"
+        android:label="@string/move_cards_to_trash" />
+    <fragment
+        android:id="@+id/RestoreCardsFragment"
+        android:name="com.lastdo.remote.example.notes.RestoreCardsFragment"
+        android:label="@string/restore_cards" />
+    <fragment
+        android:id="@+id/CreateTimerFragment"
+        android:name="com.lastdo.remote.example.notes.CreateTimerFragment"
+        android:label="@string/create_timer" />
+    <fragment
+        android:id="@+id/DeleteTimersFragment"
+        android:name="com.lastdo.remote.example.notes.DeleteTimersFragment"
+        android:label="@string/delete_timers" />
+</navigation>

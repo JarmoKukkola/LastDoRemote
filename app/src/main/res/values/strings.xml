@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LastDo Remote</string>
+    <string name="send_intent">Send Intent</string>
+    <string name="intent_type">Intent type</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="access_key">ACCESS_KEY</string>
+    <string name="add_challenge_alarm">Add challenge alarm</string>
+    <string name="add_notification">Add notification</string>
+    <string name="add_persistent_notification">Add persistent notification</string>
+    <string name="disable_events">Disable events</string>
+    <string name="enable_events">Enable events</string>
+    <string name="move_events_to_trash">Move events to trash</string>
+    <string name="restore_events">Restore events</string>
+    <string name="create_note">Create note</string>
+    <string name="move_notes_to_trash">Move notes to trash</string>
+    <string name="restore_notes">Restore notes</string>
+    <string name="create_card">Create card</string>
+    <string name="move_cards_to_trash">Move cards to trash</string>
+    <string name="restore_cards">Restore cards</string>
+    <string name="dismiss_events">Dismiss events</string>
+    <string name="create_timer">Create timer</string>
+    <string name="delete_timers">Delete timers</string>
+</resources>

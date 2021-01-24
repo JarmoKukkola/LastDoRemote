@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lastdo.remote">
+
+    <queries>
+        <package android:name="com.lastdo.app" />
+        <package android:name="com.lastdo.pro" />
+
+        <intent>
+            <action android:name="android.intent.action.SET_ALARM" />
+        </intent>
+        <intent>
+            <action android:name="ENABLE_EVENTS" />
+        </intent>
+        <intent>
+            <action android:name="DISABLE_EVENTS" />
+        </intent>
+        <intent>
+            <action android:name="DELETE_EVENTS" />
+        </intent>
+        <intent>
+            <action android:name="UNDELETE_EVENTS" />
+        </intent>
+        <intent>
+            <action android:name="CREATE_NOTE" />
+        </intent>
+        <intent>
+            <action android:name="DELETE_NOTE" />
+        </intent>
+        <intent>
+            <action android:name="CREATE_TIMER" />
+        </intent>
+        <intent>
+            <action android:name="DELETE_TIMERS" />
+        </intent>
+    </queries>
+</manifest>
